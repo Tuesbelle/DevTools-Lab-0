@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Work Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6; /* Increase line spacing */
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 5px 0;
+            text-align: center;
+            width: 100%;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            width: 100%;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .main-container {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            max-width: 1000px;
+            padding: 20px;
+            background-color: #fff;
+            margin: 20px 0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .content {
+            flex: 3;
+            margin-right: 20px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .sidebar {
+            flex: 1;
+            background-color: #f4f4f4;
+            padding: 20px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 5px 0;
+            text-align: center;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+        }
+        .qa-section {
+            margin: 20px 0;
+        }
+        .qa-section h2 {
+            text-align: center;
+        }
+        .qa {
+            margin-bottom: 20px;
+        }
+        .qa h3 {
+            margin-bottom: 5px;
+        }
+        .qa p {
+            margin-top: 0;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+    </style>A
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My HomeWork Webpage</h1>
+        <h4>Cassandra Moore</h4><h4><en>Tu es Belle (You are Beautiful)</en></h4>
+    </header>
+
+    <nav>
+        <a href="#Dev Tools">Dev Tools</a>
+        <a href="#Elements">Elements Panel</a>
+        <a href="#Network Panel">Network Panel</a>
+        <a href="#Slow 3G Throttling">Slow 3G Throttling</a>
+    </nav>
+
+    <div class="main-container">
+        <div class="content">
+            <section id="Dev Tools">
+                <h2>Developer Tools</h2>
+                <p>Developer tools, commonly known as Deve Tools, are a set of built-in tools avaliable in web browsers
+                 like (Chrome, Firefox, and Edge) that allow web developers to inspect, debug and analyze web applications.
+                 These features that Dev Tools offer are essential for web developers to build and maintain websites.</p>
+                
+            </section>
+            <section id="Elements">
+                <h2>Elements Panel</h2>
+                <p>The Elements panel allows you to inspect, edit, and modify HTML & CSS in real time.
+                It lets you experiment with styles wihtout changing the actual website code.
+                It also allows you to view the DOM (Document Object Model) of the webpage,
+                which is the structure of the HTML elements on the page.</p>
+                
+            </section>
+            <section id="Network Panel">
+                <h2>Network Panel</h2>
+                <p>The Network panel shows all network requests mady by the page(HTML, CSS, JavaScript, Images,applications)
+                It measure how long each resource take to load.It also helps a Web Developer analyze page load times 
+                and performance issues and focus on specific resource tyesp (XHR, CSS, JS, Media,etx.),</p>
+            </section>
+            <section  id="Sloe 3G Throttling">
+                <h2>Slow 3G Throttling</h2>
+                <p>Throttling to Slow 3G this is done by the Web Developer intentional reduction of data speeds by
+                webpage slow 3g throttling is more about how users experience the websit's performance under defferent 
+                network conditions such as when a user's connections is throttled to slower speeds like 3G. 
+                It affects how quickly web pages load and how responsive the site is, and how smoothly multimedia elements
+                like videos and or images display. Throttling to Slow 3G helps you understnd 
+                how you webpage performs for users on slower networks</p>
+                </section>
+        </section>
+            </section id="qa" class="qa-section">
+                <h2>Questions & Answers (Q&A)</h2>
+                <div class="qa">
+                    <h3>Question 1: Which panels in Developer Tools (Deve Tools) 
+                    will you use to inspect HTML elements and change? modify their style properties?</h3>
+                    <p>Answer: The Elements Panel where you can inspect and modify the HTML structure and CSS styles oof your webpage.
+                    In the elements panel, you can see and modify the CSS rules applied to the selected element in real-time.
+                    Live editing you can use the Console panel to write and execute JavaScrip code, 
+                    which can dynamically change the style or content of you  webpage.</p>
+                </div>
+                <div class="qa">
+                    <h3>Question 2: Which panel do you use to inspect network activity?</h3>
+                    <p>Answer: The Network Panel provides detailed information about all network
+                    requests made by you webpage including resource loading times, request headers
+                    response header, and more. The Network panle displays a list of all network requests,
+                    including files like HTML, CSS, JavaScript, Images, and toher resources</p>
+                </div>
+                <div class="qa">
+                    <h3>Question 3: Why would you Throttle to Slow 3G?</h3>
+                    <p>Answer: To mimic slow internet speeds to test website performance. Therefore observing page loading behavior
+                    under limited bandwith. Identify slow-loading elements (large images, unoptimized scripts).
+                    and to improve user experience for mobile user with poor connections.</p>
+
+                    <h2> In Summary</h2>
+                    <p><strong>The Elements Panel</strong> in DevTools allows you to inspect and modify HTML and CSS in real time, 
+                    making it usful for testing style changes and layout adjustments without altering the actual code.
+                    The <strong>Newtwork Panel</strong> helps monitor all requests made by a webpage, including HTML, CSS,
+                     JavaScript, images,and API calls. It enables developers to check load times, filter specific request types,
+                    and inspect headers and responses for debugging. Additionally, 
+                    <strong>Slow 3g Throttling </strong> simulates a slow internet connection, 
+                    allowing developers to analyze page performance under limited bandwidth, 
+                    identify boottlenecks, and optimize loading strategies for a better user experience. 
+                    Together, these tools help developers inspect, debug, and optimize webpages effectively.</p></p>
+                </div>
+            </section>
+        </div>
+        <div class="sidebar">
+            <h4>Web Applications
+                that are popular and used by:
+                Developer Tools (DevTools)</h4>
+            <ul>
+                <li>Facebook Social</li>
+                <li>GitHub</li>
+                <li>Google Workspace</li>
+                <li>Microsoft Office 365</li>
+                <li>Slack</li>
+            </ul>
+            <img src="https://lh3.googleusercontent.com/a/ACg8ocLq7Us916gYnQMfl1rtkD1D7YmDCUIQyDCohyJkbUzWCAfn_sU=s360-c-no" alt="Cassandra">
+           <video controls>
+           </video>
+        </div>
+    </div>
+    
+</div>
+    <footer>
+        <p>&copy; 2025 My Work Webpage. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
